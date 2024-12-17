@@ -31,7 +31,7 @@
                 android:layout_marginTop="13dp"
                 android:layout_width="70dp"
                 android:layout_height="50dp"
-                android:background="#aaaaaa">
+                android:background="#aaaaaa"/>
 
                 <TextView
                     android:layout_marginTop="20dp"
@@ -51,7 +51,7 @@
                 android:layout_marginTop="13dp"
                 android:layout_width="70dp"
                 android:layout_height="50dp"
-                android:background="#aaaaaa">
+                android:background="#aaaaaa"/>
 
             <TextView
                 android:layout_marginTop="20dp"

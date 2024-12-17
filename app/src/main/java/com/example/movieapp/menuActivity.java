@@ -12,7 +12,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class menuActivity extends AppCompatActivity {
-    Button b1,b2;
+    Button b1,b2,b3,b4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +20,8 @@ public class menuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
         b1=(Button) findViewById(R.id.exit);
         b2=(Button) findViewById(R.id.add);
+        b3=(Button) findViewById(R.id.vmovie);
+        b4=(Button) findViewById(R.id.smovie);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +36,22 @@ public class menuActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i1=new Intent(getApplicationContext(), addMovie.class);
                 startActivity(i1);
+            }
+        });
+
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i2=new Intent(getApplicationContext(), viewMovies.class);
+                startActivity(i2);
+            }
+        });
+
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i3=new Intent(getApplicationContext(),facebookActivity.class);
+                startActivity(i3);
             }
         });
     }
