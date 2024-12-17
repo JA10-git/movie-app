@@ -1,0 +1,137 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/gradient"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Movie\n"
+            android:textSize="30dp"
+
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:text="Movie name:"
+            />
+
+        <EditText
+            android:layout_margin="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mname"
+            />
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Language:"
+            android:textSize="22dp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:layout_margin="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lang"/>
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Director:"
+            android:textSize="22dp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:layout_margin="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dir"/>
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actor:"
+            android:textSize="22dp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:layout_margin="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/actor"/>
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actress:"
+            android:textSize="22dp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:layout_margin="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/actress"/>
+
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Release Year:"
+            android:textSize="22dp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:layout_margin="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/release"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#aaaaaa"
+            android:background="#090F0F"
+            android:textStyle="bold"
+            android:id="@+id/submit"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="back to menu"
+            android:textColor="#aaaaaa"
+            android:background="#090F0F"
+            android:textStyle="bold"
+            android:id="@+id/backmen"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
